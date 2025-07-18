@@ -236,7 +236,7 @@ if uploaded_file is not None:
             # Load model
             model = load_model()
             
-        
+            #processed video
             st.text("Processing video frames...")
             video_tensor = process_video(uploaded_file)
             
